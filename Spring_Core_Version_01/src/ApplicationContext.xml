@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+			"http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+			<beans>
+			    
+			    <bean class="com.vm.business.Student" id="s" >
+			        <property name="id" value="102"></property>
+			        <property name="name" value="krishna" ></property>
+			        
+			      
+			    </bean>
+			    
+			    
+			    
+			    <bean class="com.vm.business.Student" id="s1"  >
+			        <property name="id" value="103"></property>
+			        <property name="name" value="krishna kumar" ></property>
+			        
+			      
+			    </bean>
+			    <bean class="com.vm.spring.beaninit.AwareBeam" name="awarebean">
+			       
+			        
+			    </bean>
+			    
+			    <bean class="com.vm.business.Bank" id="b" scope="prototype">
+			        
+			        
+			    </bean>
+			    
+			    
+			    <bean class="com.vm.spring.beaninit.ProductBean" id="productBean">
+			        
+			        <property name="productName" value="Laptop"></property>
+			        
+			    </bean>
+			   
+			</beans>
